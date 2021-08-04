@@ -8,9 +8,9 @@
      ansible.builtin.debug:
        msg: World
 
- - name: sample play2
-   hosts: all
-   tasks:
+- name: sample play2
+  hosts: all
+  tasks:
     - name: print BYE
       ansible.builtin.debug:
         msg: BYE
