@@ -56,3 +56,4 @@
   hosts: all
   roles:
     - name: demo
+
