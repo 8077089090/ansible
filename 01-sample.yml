@@ -15,9 +15,9 @@
       ansible.builtin.debug:
         msg: BYE
 
-- name: sample play1
-  hosts: all
-  roles:
-   - name: demo
-     vars:
-       MSG: HEY YOU
+#- name: sample play3
+ # hosts: all
+  #roles:
+   #- name: demo
+    # vars:
+     #  MSG: HEY YOU
