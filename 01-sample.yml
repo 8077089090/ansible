@@ -14,3 +14,10 @@
     - name: print BYE
       ansible.builtin.debug:
         msg: BYE
+
+- name: sample play1
+  hosts: all
+  roles:
+   - name: demo
+     vars:
+       MSG: HEY YOU
